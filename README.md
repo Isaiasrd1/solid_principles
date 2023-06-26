@@ -6,9 +6,9 @@ Repositório destinado à atividade de Aplicação de Princípios SOLID - Webste
   - Princípio da Responsabilidade Única: definir uma responsabidade única para cada classe, como as classes "Animal" e "AnimalObserver".
 
   - Princípio Aberto/Fechado: permite estender o comportamento adicionando novos observadores (AnimalObserver) sem modificar
-a classe AnimalSubject. A classe está aberta para extensão, mas fechada para modificação.
+a classe "AnimalSubject". A classe está aberta para extensão, mas fechada para modificação.
 
-  - Princípio de Substituição de Liskov: classes derivadas devem poder substituídas por suas classes base e que classes base podem ser
+  - Princípio de Substituição de Liskov: classes derivadas devem poder ser substituídas por suas classes base e que classes base podem ser
 substituídas por suas subclasses.
 
   - Princípio da Segregação de Interface: nenhum cliente deve ser forçado a depender dos métodos que não usa.
