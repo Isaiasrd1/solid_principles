@@ -3,13 +3,13 @@ Repositório destinado à atividade de Aplicação de Princípios SOLID - Webste
 
 # PT
   Projeto básico feito em python utilizando os princípios SOLID.
-  - Princípio da Responsabilidade Única: definir uma responsabidade única para cada classe, como as classes "Animal" e "AnimalObserver"
+  - Princípio da Responsabilidade Única: definir uma responsabidade única para cada classe, como as classes "Animal" e "AnimalObserver".
 
   - Princípio Aberto/Fechado: permite estender o comportamento adicionando novos observadores (AnimalObserver) sem modificar
 a classe AnimalSubject. A classe está aberta para extensão, mas fechada para modificação.
 
   - Princípio de Substituição de Liskov: classes derivadas devem poder substituídas por suas classes base e que classes base podem ser
-substituídas por suas subclasses
+substituídas por suas subclasses.
 
   - Princípio da Segregação de Interface: nenhum cliente deve ser forçado a depender dos métodos que não usa.
 Ou seja, interfaces maiores devem ser divididas em menores.
@@ -22,13 +22,13 @@ Isso permite que diferentes implementações de observadores sejam injetadas na 
 # EN
 
 Basic project done in python using SOLID principles.
-  - Single Responsibility Principle (SRP): define a single responsibility for each class, such as "Animal" and "AnimalObserver" classes
+  - Single Responsibility Principle (SRP): define a single responsibility for each class, such as "Animal" and "AnimalObserver" classes.
 
   - Open/Closed principle (OCP): allows extending the behavior by adding new observers (AnimalObserver) without modifying
 an AnimalSubject class. The class is open for extension, but closed for modification.
 
   - Liskov Substitution Principle (LSP): Derived classes must be able to be substituted for their base classes and what base classes can be
-replaced by their subclasses
+replaced by their subclasses.
 
   - Interface Segregation Principle (ISP): no client should be forced to depend on methods it does not use.
 That is, larger interfaces must be divided into smaller ones.
