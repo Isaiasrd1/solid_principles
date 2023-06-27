@@ -96,34 +96,6 @@ class WordValidator:
             return False
 
 
-class ECCService:
-    @staticmethod
-    def calcular_ecc(peso, idade):
-        if idade <= 2:
-            if peso < 1.5:
-                ecc = 1  #EMACIADO
-            elif peso < 2.5:
-                ecc = 2  # MUITO MAGRO
-            else:
-                ecc = 3  # MAGRO
-        elif idade <= 7:
-            if peso < 2.5:
-                ecc = 4  # MAGRO
-            elif peso < 4.5:
-                ecc = 5  # IDEAL
-            else:
-                ecc = 6  # SOBREPESO
-        else:
-            if peso < 4.5:
-                ecc = 7  # SOBREPESO
-            elif peso < 6.5:
-                ecc = 8  # OBESIDADE
-            else:
-                ecc = 9  # OBESIDADE GRAVE
-
-        return ecc
-
-
 def main():
     subject = AnimalSubject()
     notificacao_observer = AnimalNotificacaoObserver()
